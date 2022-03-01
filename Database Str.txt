@@ -1,0 +1,49 @@
+Crm Mysql Table Structure
+
+Database Name: eupcrm
+
+Table name1 : customer
+Columns:
+id bigint(11) AI PK 
+customer_id varchar(45) 
+customer_name varchar(45) 
+customer_since datetime 
+customer_address1 varchar(45) 
+customer_address2 varchar(45) 
+customer_area varchar(45) 
+contact_person1 varchar(45) 
+contact_person2 varchar(45) 
+contact_number1 varchar(45) 
+contact_number2 varchar(45)
+
+Table Name2: engineer
+Columns:
+id bigint(11) AI PK 
+engineer_name varchar(45) 
+engineer_id varchar(45) 
+engineer_post varchar(45) 
+engineer_age int(4)
+
+
+Table Name3: issuereported
+Columns:
+id bigint(11) AI PK 
+ticket_number varchar(45) 
+issue_details varchar(45) 
+cstomer_id varchar(45) 
+issue_reported_on datetime 
+issue_reported_by varchar(45) 
+issue_reported_to varchar(45) 
+issue_assigned_on datetime 
+issue_assigned_by varchar(45) 
+issue_assigned_to varchar(45) 
+issue_completed_on datetime 
+issue_completed_by varchar(45)
+
+
+Table Name4: ticket
+Columns:
+id bigint(11) AI PK 
+ticket_number varchar(45) 
+ticket_Created_On datetime 
+ticket_Assigned_By varchar(45)
